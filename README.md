@@ -9,25 +9,25 @@ First, install the plugin with your favorite plugin manager.
 - [NeoBundle][neobundle]
 
     ```vim
-    NeoBundle 'HeroCC/moos-vim-syntax'
+    NeoBundle 'frc1418/vim-syntax-victis'
     ```
 
 - [Vundle][vundle]
 
     ```vim
-    Bundle 'HeroCC/moos-vim-syntax'
+    Bundle 'frc1418/vim-syntax-victis'
     ```
 
 - [Pathogen][pathogen]
 
     ```sh
-    git clone git://github.com/HeroCC/moos-vim-syntax.git ~/.vim/bundle/moos-vim-syntax
+    git clone git://github.com/frc1418/vim-syntax-victis.git ~/.vim/bundle/vim-syntax-victis
     ```
 
 - [vim-plug][vim-plug]
 
     ```vim
-    Plug 'HeroCC/moos-vim-syntax'
+    Plug 'frc1418/vim-syntax-victis'
     ```
 
 ### If using theme in terminal
