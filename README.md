@@ -30,8 +30,14 @@ First, install the plugin with your favorite plugin manager.
     Plug 'frc1418/vim-syntax-victis'
     ```
 
+### Enabling color scheme
+After installing the plugin, you will need to enable it in your `.vimrc`:
+```
+colorscheme victis
+```
+
 ### If using theme in terminal
-If you wish to use vim in the terminal, you will need to add the following line to your `.vimrc`:
+If you wish to use vim in the terminal, you may need to add the following line to your `.vimrc`:
 ```
 set termguicolors
 ```
