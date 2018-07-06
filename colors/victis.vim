@@ -1,6 +1,5 @@
 " Vim color file
 " victis
-" Created by Erik Boesen with ThemeCreator (https://github.com/mswift42/themecreator)
 
 hi clear
 
