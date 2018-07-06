@@ -1,114 +1,114 @@
 " Vim color file
+" victis
+" Created by Erik Boesen with ThemeCreator (https://github.com/mswift42/themecreator)
 
-set background=dark
-highlight clear
+hi clear
 
-if exists("syntax_on")
-  syntax reset
+if exists("syntax on")
+syntax reset
 endif
 
+set t_Co=256
 let g:colors_name = "victis"
 
-hi Cursor ctermfg=234 ctermbg=231 cterm=NONE guifg=#1a1a1a guibg=#ecf0f1 gui=NONE
-hi Visual ctermfg=NONE ctermbg=238 cterm=NONE guifg=NONE guibg=#444444 gui=NONE
-hi CursorLine ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#2f2f2f gui=NONE
-hi CursorColumn ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#2f2f2f gui=NONE
-hi ColorColumn ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#2f2f2f gui=NONE
-hi LineNr ctermfg=244 ctermbg=236 cterm=NONE guifg=#838586 guibg=#2f2f2f gui=NONE
-hi VertSplit ctermfg=240 ctermbg=240 cterm=NONE guifg=#575858 guibg=#575858 gui=NONE
-hi MatchParen ctermfg=124 ctermbg=NONE cterm=underline guifg=#e74c3c guibg=NONE gui=underline
-hi StatusLine ctermfg=231 ctermbg=240 cterm=bold guifg=#ecf0f1 guibg=#575858 gui=bold
-hi StatusLineNC ctermfg=231 ctermbg=240 cterm=NONE guifg=#ecf0f1 guibg=#575858 gui=NONE
-hi Pmenu ctermfg=41 ctermbg=NONE cterm=NONE guifg=#2ecc71 guibg=NONE gui=NONE
-hi PmenuSel ctermfg=NONE ctermbg=238 cterm=NONE guifg=NONE guibg=#444444 gui=NONE
-hi Search term=reverse cterm=bold ctermfg=15 ctermbg=196 gui=bold guifg=#f7f3ff guibg=#e14d42
-hi IncSearch term=reverse cterm=bold ctermfg=16 ctermbg=39 gui=bold guifg=#000000 guibg=#6c71c4
-hi Directory ctermfg=62 ctermbg=NONE cterm=NONE guifg=#6c71c4 guibg=NONE gui=NONE
-hi Folded ctermfg=241 ctermbg=234 cterm=NONE guifg=#606060 guibg=#1a1a1a gui=NONE
 
-hi Normal ctermfg=231 ctermbg=234 cterm=NONE guifg=#ecf0f1 guibg=#1a1a1a gui=NONE
-hi Boolean ctermfg=62 ctermbg=NONE cterm=NONE guifg=#6c71c4 guibg=NONE gui=NONE
-hi Character ctermfg=62 ctermbg=NONE cterm=NONE guifg=#6c71c4 guibg=NONE gui=NONE
-hi Comment ctermfg=241 ctermbg=NONE cterm=NONE guifg=#606060 guibg=NONE gui=italic
-hi Conditional ctermfg=196 ctermbg=NONE cterm=bold guifg=#e74c3c guibg=NONE gui=bold
-hi Constant ctermfg=62 ctermbg=NONE cterm=NONE guifg=#6c71c4 guibg=NONE gui=NONE
-hi Define ctermfg=196 ctermbg=NONE cterm=bold guifg=#e74c3c guibg=NONE gui=bold
-hi DiffAdd ctermfg=231 ctermbg=64 cterm=bold guifg=#ecf0f1 guibg=#44800a gui=bold
-hi DiffDelete ctermfg=88 ctermbg=NONE cterm=NONE guifg=#880505 guibg=NONE gui=NONE
-hi DiffChange ctermfg=231 ctermbg=23 cterm=NONE guifg=#ecf0f1 guibg=#1d3251 gui=NONE
-hi DiffText ctermfg=231 ctermbg=40 cterm=bold guifg=#ecf0f1 guibg=#00df00 gui=bold
-hi ErrorMsg ctermfg=15 ctermbg=196 cterm=NONE guifg=#ffffff guibg=#e74c3c gui=NONE
-hi WarningMsg ctermfg=15 ctermbg=196 cterm=NONE guifg=#ffffff guibg=#e74c3c gui=NONE
-hi Float ctermfg=62 ctermbg=NONE cterm=NONE guifg=#6c71c4 guibg=NONE gui=NONE
-hi Function ctermfg=41 ctermbg=NONE cterm=NONE guifg=#2ecc71 guibg=NONE gui=NONE
-hi Identifier ctermfg=68 ctermbg=NONE cterm=NONE guifg=#3498db guibg=NONE gui=NONE
-hi Keyword ctermfg=196 ctermbg=NONE cterm=bold guifg=#e74c3c guibg=NONE gui=bold
-hi Label ctermfg=220 ctermbg=NONE cterm=NONE guifg=#f1c40f guibg=NONE gui=NONE
-hi NonText ctermfg=22 ctermbg=234 cterm=NONE guifg=#30312a guibg=#1a1a1a gui=NONE
-hi Number ctermfg=62 ctermbg=NONE cterm=NONE guifg=#6c71c4 guibg=NONE gui=NONE
-hi Operator ctermfg=196 ctermbg=NONE cterm=bold guifg=#e74c3c guibg=NONE gui=bold
-hi PreProc ctermfg=196 ctermbg=NONE cterm=bold guifg=#e74c3c guibg=NONE gui=bold
-hi Special ctermfg=62 ctermbg=NONE cterm=NONE guifg=#6c71c4 guibg=NONE gui=NONE
-hi SpecialKey ctermfg=22 ctermbg=236 cterm=NONE guifg=#f1530f guibg=#1a1a1a gui=NONE
-hi Statement ctermfg=196 ctermbg=NONE cterm=bold guifg=#e74c3c guibg=NONE gui=bold
-hi StorageClass ctermfg=68 ctermbg=NONE cterm=NONE guifg=#3498db guibg=NONE gui=NONE
-hi String ctermfg=220 ctermbg=NONE cterm=NONE guifg=#f1c40f guibg=NONE gui=NONE
-hi Structure ctermfg=68 ctermbg=NONE cterm=bold guifg=#3498db guibg=NONE gui=bold
-hi Tag ctermfg=41 ctermbg=NONE cterm=NONE guifg=#2ecc71 guibg=NONE gui=NONE
-hi Title ctermfg=231 ctermbg=NONE cterm=bold guifg=#ecf0f1 guibg=NONE gui=bold
-hi Todo ctermfg=241 ctermbg=NONE cterm=inverse,bold guifg=#606060 guibg=NONE gui=inverse,bold,italic
-hi Type ctermfg=41 ctermbg=NONE cterm=NONE guifg=#2ecc71 guibg=NONE gui=NONE
-hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=underline
-hi SpellBad term=reverse ctermfg=196 ctermbg=224 gui=undercurl guisp=Red
-hi rubyClass ctermfg=196 ctermbg=NONE cterm=bold guifg=#e74c3c guibg=NONE gui=bold
-hi rubyFunction ctermfg=41 ctermbg=NONE cterm=NONE guifg=#2ecc71 guibg=NONE gui=NONE
-hi rubyInterpolationDelimiter ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi rubySymbol ctermfg=62 ctermbg=NONE cterm=NONE guifg=#6c71c4 guibg=NONE gui=NONE
-hi rubyConstant ctermfg=68 ctermbg=NONE cterm=bold guifg=#3498db guibg=NONE gui=bold
-hi rubyStringDelimiter ctermfg=220 ctermbg=NONE cterm=NONE guifg=#f1c40f guibg=NONE gui=NONE
-hi rubyBlockParameter ctermfg=172 ctermbg=NONE cterm=NONE guifg=#e67e22 guibg=NONE gui=NONE
-hi rubyInstanceVariable ctermfg=172 ctermbg=NONE cterm=NONE guifg=#e67e22 guibg=NONE gui=NONE
-hi rubyInclude ctermfg=196 ctermbg=NONE cterm=bold guifg=#e74c3c guibg=NONE gui=bold
-hi rubyGlobalVariable ctermfg=172 ctermbg=NONE cterm=NONE guifg=#e67e22 guibg=NONE gui=NONE
-hi rubyRegexp ctermfg=68 ctermbg=NONE cterm=NONE guifg=#3498db guibg=NONE gui=NONE
-hi rubyRegexpDelimiter ctermfg=68 ctermbg=NONE cterm=NONE guifg=#3498db guibg=NONE gui=NONE
-hi rubyEscape ctermfg=62 ctermbg=NONE cterm=NONE guifg=#6c71c4 guibg=NONE gui=NONE
-hi rubyControl ctermfg=196 ctermbg=NONE cterm=bold guifg=#e74c3c guibg=NONE gui=bold
-hi rubyClassVariable ctermfg=172 ctermbg=NONE cterm=NONE guifg=#e67e22 guibg=NONE gui=NONE
-hi rubyOperator ctermfg=196 ctermbg=NONE cterm=bold guifg=#e74c3c guibg=NONE gui=bold
-hi rubyException ctermfg=196 ctermbg=NONE cterm=bold guifg=#e74c3c guibg=NONE gui=bold
-hi rubyPseudoVariable ctermfg=172 ctermbg=NONE cterm=NONE guifg=#e67e22 guibg=NONE gui=NONE
-hi rubyRailsUserClass ctermfg=68 ctermbg=NONE cterm=bold guifg=#3498db guibg=NONE gui=bold
-hi rubyRailsARAssociationMethod ctermfg=68 ctermbg=NONE cterm=NONE guifg=#3498db guibg=NONE gui=NONE
-hi rubyRailsARMethod ctermfg=68 ctermbg=NONE cterm=NONE guifg=#3498db guibg=NONE gui=NONE
-hi rubyRailsRenderMethod ctermfg=68 ctermbg=NONE cterm=NONE guifg=#3498db guibg=NONE gui=NONE
-hi rubyRailsMethod ctermfg=68 ctermbg=NONE cterm=NONE guifg=#3498db guibg=NONE gui=NONE
-hi erubyDelimiter ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi erubyComment ctermfg=241 ctermbg=NONE cterm=NONE guifg=#606060 guibg=NONE gui=italic
-hi erubyRailsMethod ctermfg=68 ctermbg=NONE cterm=NONE guifg=#3498db guibg=NONE gui=NONE
-hi htmlTag ctermfg=196 ctermbg=NONE cterm=NONE guifg=#e74c3c guibg=NONE gui=NONE
-hi htmlEndTag ctermfg=196 ctermbg=NONE cterm=NONE guifg=#e74c3c guibg=NONE gui=NONE
-hi htmlTagName ctermfg=196 ctermbg=NONE cterm=NONE guifg=#e74c3c guibg=NONE gui=NONE
-hi htmlArg ctermfg=196 ctermbg=NONE cterm=NONE guifg=#e74c3c guibg=NONE gui=NONE
-hi htmlSpecialChar ctermfg=68 ctermbg=NONE cterm=NONE guifg=#3498db guibg=NONE gui=NONE
-hi javaScriptFunction ctermfg=68 ctermbg=NONE cterm=NONE guifg=#3498db guibg=NONE gui=NONE
-hi javaScriptRailsFunction ctermfg=68 ctermbg=NONE cterm=NONE guifg=#3498db guibg=NONE gui=NONE
-hi javaScriptBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi yamlKey ctermfg=41 ctermbg=NONE cterm=NONE guifg=#2ecc71 guibg=NONE gui=NONE
-hi yamlAnchor ctermfg=172 ctermbg=NONE cterm=NONE guifg=#e67e22 guibg=NONE gui=NONE
-hi yamlAlias ctermfg=172 ctermbg=NONE cterm=NONE guifg=#e67e22 guibg=NONE gui=NONE
-hi yamlDocumentHeader ctermfg=220 ctermbg=NONE cterm=NONE guifg=#f1c40f guibg=NONE gui=NONE
-hi cssURL ctermfg=172 ctermbg=NONE cterm=NONE guifg=#e67e22 guibg=NONE gui=NONE
-hi cssFunctionName ctermfg=68 ctermbg=NONE cterm=NONE guifg=#3498db guibg=NONE gui=NONE
-hi cssColor ctermfg=62 ctermbg=NONE cterm=NONE guifg=#6c71c4 guibg=NONE gui=NONE
-hi cssPseudoClassId ctermfg=41 ctermbg=NONE cterm=NONE guifg=#2ecc71 guibg=NONE gui=NONE
-hi cssClassName ctermfg=41 ctermbg=NONE cterm=NONE guifg=#2ecc71 guibg=NONE gui=NONE
-hi cssValueLength ctermfg=62 ctermbg=NONE cterm=NONE guifg=#6c71c4 guibg=NONE gui=NONE
-hi cssCommonAttr ctermfg=41 ctermbg=NONE cterm=NONE guifg=#2ecc71 guibg=NONE gui=NONE
-hi cssBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
+" Define reusable colorvariables.
+let s:bg="#222"
+let s:fg="#ccc"
+let s:fg2="#bcbcbc"
+let s:fg3="#ababab"
+let s:fg4="#9b9b9b"
+let s:bg2="#343434"
+let s:bg3="#454545"
+let s:bg4="#575757"
+let s:keyword="#d12727"
+let s:builtin="#d12727"
+let s:const= "#ccc"
+let s:comment="#5d5a58"
+let s:func="#555"
+let s:str="#5d5a58"
+let s:type="#555"
+let s:var="#ccc"
+let s:warning="#d12727"
+let s:warning2="#e6fa43"
 
-" GitGutter Customizations
-hi SignColumn ctermfg=244 ctermbg=236 guifg=#838586 guibg=#2f2f2f
-hi GitGutterChangeDefault ctermfg=244 ctermbg=236 guifg=#bbbb00 guibg=#2f2f2f
-hi GitGutterAddDefault ctermfg=2 ctermbg=236 guifg=#009900 guibg=#2f2f2f
-hi GitGutterDeleteDefault ctermfg=1 ctermbg=236 guifg=#ff2222 guibg=#2f2f2f
+exe 'hi Normal guifg='s:fg' guibg='s:bg 
+exe 'hi Cursor guifg='s:bg' guibg='s:fg 
+exe 'hi Cursorline  guibg='s:bg2 
+exe 'hi CursorColumn  guibg='s:bg2 
+exe 'hi ColorColumn  guibg='s:bg2 
+exe 'hi LineNr guifg='s:fg2' guibg='s:bg2 
+exe 'hi VertSplit guifg='s:fg3' guibg='s:bg3 
+exe 'hi MatchParen guifg='s:warning2'  gui=underline'
+exe 'hi StatusLine guifg='s:fg2' guibg='s:bg3' gui=bold'
+exe 'hi Pmenu guifg='s:fg' guibg='s:bg2
+exe 'hi PmenuSel  guibg='s:bg3 
+exe 'hi IncSearch guifg='s:bg' guibg='s:keyword 
+exe 'hi Search   gui=underline'
+exe 'hi Directory guifg='s:const  
+exe 'hi Folded guifg='s:fg4' guibg='s:bg 
+
+exe 'hi Boolean guifg='s:const  
+exe 'hi Character guifg='s:const  
+exe 'hi Comment guifg='s:comment  
+exe 'hi Conditional guifg='s:keyword  
+exe 'hi Constant guifg='s:const  
+exe 'hi Define guifg='s:keyword  
+exe 'hi DiffAdd guifg=#f8f8f8 guibg=#46830c gui=bold'
+exe 'hi DiffDelete guifg=#ff0000'  
+exe 'hi DiffChange guifg='s:fg' guibg='s:var 
+exe 'hi DiffText guifg='s:fg' guibg='s:builtin' gui=bold'
+exe 'hi ErrorMsg guifg='s:warning' guibg='s:bg2' gui=bold'
+exe 'hi WarningMsg guifg='s:fg' guibg='s:warning2 
+exe 'hi Float guifg='s:const  
+exe 'hi Function guifg='s:func  
+exe 'hi Identifier guifg='s:type'  gui=italic'
+exe 'hi Keyword guifg='s:keyword'  gui=bold'
+exe 'hi Label guifg='s:var
+exe 'hi NonText guifg='s:bg4' guibg='s:bg2 
+exe 'hi Number guifg='s:const  
+exe 'hi Operater guifg='s:keyword  
+exe 'hi PreProc guifg='s:keyword  
+exe 'hi Special guifg='s:fg  
+exe 'hi SpecialKey guifg='s:fg2' guibg='s:bg2 
+exe 'hi Statement guifg='s:keyword  
+exe 'hi StorageClass guifg='s:type'  gui=italic'
+exe 'hi String guifg='s:str  
+exe 'hi Tag guifg='s:keyword  
+exe 'hi Title guifg='s:fg'  gui=bold'
+exe 'hi Todo guifg='s:fg2'  gui=inverse,bold'
+exe 'hi Type guifg='s:type 
+exe 'hi Underlined   gui=underline'
+
+" Ruby Highlighting
+exe 'hi rubyAttribute guifg='s:builtin
+exe 'hi rubyLocalVariableOrMethod guifg='s:var
+exe 'hi rubyGlobalVariable guifg='s:var' gui=italic'
+exe 'hi rubyInstanceVariable guifg='s:var
+exe 'hi rubyKeyword guifg='s:keyword
+exe 'hi rubyKeywordAsMethod guifg='s:keyword' gui=bold'
+exe 'hi rubyClassDeclaration guifg='s:keyword' gui=bold'
+exe 'hi rubyClass guifg='s:keyword' gui=bold'
+exe 'hi rubyNumber guifg='s:const
+
+" Python Highlighting
+exe 'hi pythonBuiltinFunc guifg='s:builtin
+
+" Go Highlighting
+exe 'hi goBuiltins guifg='s:builtin
+
+" Javascript Highlighting
+exe 'hi jsBuiltins guifg='s:builtin
+exe 'hi jsFunction guifg='s:keyword' gui=bold'
+exe 'hi jsGlobalObjects guifg='s:type
+exe 'hi jsAssignmentExps guifg='s:var
+
+" Html Highlighting
+exe 'hi htmlLink guifg='s:var' gui=underline'
+exe 'hi htmlStatement guifg='s:keyword
+exe 'hi htmlSpecialTagName guifg='s:keyword
+
+" Markdown Highlighting
+exe 'hi mkdCode guifg='s:builtin
+
+
