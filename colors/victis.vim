@@ -4,7 +4,7 @@
 hi clear
 
 if exists("syntax on")
-syntax reset
+    syntax reset
 endif
 
 set t_Co=256
@@ -12,7 +12,7 @@ let g:colors_name = "victis"
 
 
 " Define reusable colorvariables.
-let s:bg="#222222"
+let s:bg="#171717"
 let s:fg="#cccccc"
 let s:fg2="#bcbcbc"
 let s:fg3="#ababab"
