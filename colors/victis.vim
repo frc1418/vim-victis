@@ -13,8 +13,8 @@ let g:colors_name = "victis"
 
 
 " Define reusable colorvariables.
-let s:bg="#222"
-let s:fg="#ccc"
+let s:bg="#222222"
+let s:fg="#cccccc"
 let s:fg2="#bcbcbc"
 let s:fg3="#ababab"
 let s:fg4="#9b9b9b"
@@ -23,61 +23,61 @@ let s:bg3="#454545"
 let s:bg4="#575757"
 let s:keyword="#d12727"
 let s:builtin="#d12727"
-let s:const= "#ccc"
+let s:const="#cccccc"
 let s:comment="#5d5a58"
-let s:func="#555"
+let s:func="#555555"
 let s:str="#5d5a58"
-let s:type="#555"
-let s:var="#ccc"
+let s:type="#555555"
+let s:var="#cccccc"
 let s:warning="#d12727"
 let s:warning2="#e6fa43"
 
-exe 'hi Normal guifg='s:fg' guibg='s:bg 
-exe 'hi Cursor guifg='s:bg' guibg='s:fg 
-exe 'hi Cursorline  guibg='s:bg2 
-exe 'hi CursorColumn  guibg='s:bg2 
-exe 'hi ColorColumn  guibg='s:bg2 
-exe 'hi LineNr guifg='s:fg2' guibg='s:bg2 
-exe 'hi VertSplit guifg='s:fg3' guibg='s:bg3 
+exe 'hi Normal guifg='s:fg' guibg='s:bg
+exe 'hi Cursor guifg='s:bg' guibg='s:fg
+exe 'hi Cursorline  guibg='s:bg2
+exe 'hi CursorColumn  guibg='s:bg2
+exe 'hi ColorColumn  guibg='s:bg2
+exe 'hi LineNr guifg='s:fg2' guibg='s:bg2
+exe 'hi VertSplit guifg='s:fg3' guibg='s:bg3
 exe 'hi MatchParen guifg='s:warning2'  gui=underline'
 exe 'hi StatusLine guifg='s:fg2' guibg='s:bg3' gui=bold'
 exe 'hi Pmenu guifg='s:fg' guibg='s:bg2
-exe 'hi PmenuSel  guibg='s:bg3 
-exe 'hi IncSearch guifg='s:bg' guibg='s:keyword 
+exe 'hi PmenuSel  guibg='s:bg3
+exe 'hi IncSearch guifg='s:bg' guibg='s:keyword
 exe 'hi Search   gui=underline'
-exe 'hi Directory guifg='s:const  
-exe 'hi Folded guifg='s:fg4' guibg='s:bg 
+exe 'hi Directory guifg='s:const
+exe 'hi Folded guifg='s:fg4' guibg='s:bg
 
-exe 'hi Boolean guifg='s:const  
-exe 'hi Character guifg='s:const  
-exe 'hi Comment guifg='s:comment  
-exe 'hi Conditional guifg='s:keyword  
-exe 'hi Constant guifg='s:const  
-exe 'hi Define guifg='s:keyword  
+exe 'hi Boolean guifg='s:const
+exe 'hi Character guifg='s:const
+exe 'hi Comment guifg='s:comment
+exe 'hi Conditional guifg='s:keyword
+exe 'hi Constant guifg='s:const
+exe 'hi Define guifg='s:keyword
 exe 'hi DiffAdd guifg=#f8f8f8 guibg=#46830c gui=bold'
-exe 'hi DiffDelete guifg=#ff0000'  
-exe 'hi DiffChange guifg='s:fg' guibg='s:var 
+exe 'hi DiffDelete guifg=#ff0000'
+exe 'hi DiffChange guifg='s:fg' guibg='s:var
 exe 'hi DiffText guifg='s:fg' guibg='s:builtin' gui=bold'
 exe 'hi ErrorMsg guifg='s:warning' guibg='s:bg2' gui=bold'
-exe 'hi WarningMsg guifg='s:fg' guibg='s:warning2 
-exe 'hi Float guifg='s:const  
-exe 'hi Function guifg='s:func  
+exe 'hi WarningMsg guifg='s:fg' guibg='s:warning2
+exe 'hi Float guifg='s:const
+exe 'hi Function guifg='s:func
 exe 'hi Identifier guifg='s:type'  gui=italic'
 exe 'hi Keyword guifg='s:keyword'  gui=bold'
 exe 'hi Label guifg='s:var
-exe 'hi NonText guifg='s:bg4' guibg='s:bg2 
-exe 'hi Number guifg='s:const  
-exe 'hi Operater guifg='s:keyword  
-exe 'hi PreProc guifg='s:keyword  
-exe 'hi Special guifg='s:fg  
-exe 'hi SpecialKey guifg='s:fg2' guibg='s:bg2 
-exe 'hi Statement guifg='s:keyword  
+exe 'hi NonText guifg='s:bg4' guibg='s:bg2
+exe 'hi Number guifg='s:const
+exe 'hi Operater guifg='s:keyword
+exe 'hi PreProc guifg='s:keyword
+exe 'hi Special guifg='s:fg
+exe 'hi SpecialKey guifg='s:fg2' guibg='s:bg2
+exe 'hi Statement guifg='s:keyword
 exe 'hi StorageClass guifg='s:type'  gui=italic'
-exe 'hi String guifg='s:str  
-exe 'hi Tag guifg='s:keyword  
+exe 'hi String guifg='s:str
+exe 'hi Tag guifg='s:keyword
 exe 'hi Title guifg='s:fg'  gui=bold'
 exe 'hi Todo guifg='s:fg2'  gui=inverse,bold'
-exe 'hi Type guifg='s:type 
+exe 'hi Type guifg='s:type
 exe 'hi Underlined   gui=underline'
 
 " Ruby Highlighting
