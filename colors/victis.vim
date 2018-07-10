@@ -47,10 +47,9 @@ exe 'hi Search   gui=underline'
 exe 'hi Directory guifg='s:const
 exe 'hi Folded guifg='s:fg4' guibg='s:bg
 
-
-exec 'hi TabLine     guifg=#767676 guibg=#262626 gui=NONE cterm=NONE'
-exec 'hi TabLineSel  guifg=#eeeeee guibg=#262626 gui=NONE cterm=NONE'
-exec 'hi TabLineFill guifg=NONE    guibg=#262626 gui=NONE cterm=NONE'
+exec 'hi TabLine     guifg='s:bg4' guibg='s:bg2' gui=NONE cterm=NONE'
+exec 'hi TabLineSel  guifg='s:fg2' guibg=NONE gui=NONE cterm=NONE'
+exec 'hi TabLineFill guifg=NONE    guibg='s:bg2' gui=NONE cterm=NONE'
 
 exe 'hi Boolean guifg='s:const
 exe 'hi Character guifg='s:const
