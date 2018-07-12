@@ -1,5 +1,5 @@
-# vim-syntax-victis
-> Team 1418's syntax theme for vim.
+# vim-victis
+> Team 1418's vim theme.
 
 ![Screenshot](screenshot.png)
 
@@ -9,25 +9,25 @@ First, install the plugin with your favorite plugin manager.
 - [NeoBundle][neobundle]
 
     ```vim
-    NeoBundle 'frc1418/vim-syntax-victis'
+    NeoBundle 'frc1418/vim-victis'
     ```
 
 - [Vundle][vundle]
 
     ```vim
-    Bundle 'frc1418/vim-syntax-victis'
+    Bundle 'frc1418/vim-victis'
     ```
 
 - [Pathogen][pathogen]
 
     ```sh
-    git clone git://github.com/frc1418/vim-syntax-victis.git ~/.vim/bundle/vim-syntax-victis
+    git clone git://github.com/frc1418/vim-victis.git ~/.vim/bundle/vim-victis
     ```
 
 - [vim-plug][vim-plug]
 
     ```vim
-    Plug 'frc1418/vim-syntax-victis'
+    Plug 'frc1418/vim-victis'
     ```
 
 ### Enabling color scheme
