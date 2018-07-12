@@ -36,13 +36,6 @@ After installing the plugin, you will need to enable it in your `.vimrc`:
 colorscheme victis
 ```
 
-### If using theme in terminal
-If you wish to use vim in the terminal, you may need to add the following line to your `.vimrc`:
-```
-set termguicolors
-```
-This will force the use of GUI colors in your terminal.
-
 ## License
 
 Provided under the [MIT License](LICENSE).
